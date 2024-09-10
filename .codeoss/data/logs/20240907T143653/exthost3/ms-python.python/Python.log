@@ -1,0 +1,55 @@
+2024-09-07 15:35:20.730 [info] Default formatter is set to null for workspace /home/kaiser8449/hello-world-7
+2024-09-07 15:35:20.730 [info] Test server listening.
+2024-09-07 15:35:20.730 [info] > hatch env show --json
+2024-09-07 15:35:20.730 [info] cwd: .
+2024-09-07 15:35:20.730 [info] > conda info --json
+2024-09-07 15:35:20.730 [info] Python interpreter path: /bin/python
+2024-09-07 15:35:20.840 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-09-07 15:35:20.937 [info] > pyenv which python
+2024-09-07 15:35:20.937 [info] cwd: .
+2024-09-07 15:35:22.337 [info] Starting Jedi language server for hello-world-7.
+2024-09-07 15:35:36.541 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 15:35:38.329 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 15:35:50.534 [info] Send text to terminal: /bin/python /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 15:37:23.745 [info] Running installed packages checker:  python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/kaiser8449/hello-world-7/src/requirements.txt
+2024-09-07 15:37:23.745 [info] > python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./src/requirements.txt
+2024-09-07 15:38:00.073 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2024-09-07 15:50:53.157 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 15:50:54.664 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 15:51:03.107 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 15:51:04.175 [info] Send text to terminal: /bin/python /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:02:43.189 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:02:46.133 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:02:50.809 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:02:52.242 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:02:53.695 [info] Send text to terminal: /bin/python /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:03:38.381 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:03:44.205 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:06:03.204 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:06:04.385 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:06:07.165 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:09:36.358 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:10:12.576 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:10:57.057 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:10:58.943 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:14:44.029 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:14:49.557 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:15:35.014 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:15:41.692 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:19:42.888 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:19:46.727 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:19:48.573 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:21:06.440 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:21:11.682 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:22:09.502 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:26:27.068 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:26:29.470 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:28:12.046 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:28:17.634 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:28:21.740 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:29:08.829 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:36:03.358 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:36:59.602 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:37:06.400 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:37:58.598 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py
+2024-09-07 16:53:49.504 [info] Discover tests for workspace name: hello-world-7 - uri: /home/kaiser8449/hello-world-7/src/app.py

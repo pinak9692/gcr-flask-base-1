@@ -1,0 +1,10 @@
+Initializing document watcher...
+Document watcher initialized
+quickstart-docker/gcloud services enable \     run.googleapis.com \     --project=abbadon: {}
+quickstart-docker/gcloud services enable \     run.googleapis.com \     --project=abbadon: {}
+quickstart-docker/gcloud services enable \     run.googleapis.com \     --project=abbadon: {}
+quickstart-docker/quickstart.sh: {}
+quickstart-docker/quickstart.sh: {}
+quickstart-docker/quickstart.sh: {}
+quickstart-docker/quickstart.sh: {}
+quickstart-docker/quickstart.sh: {}

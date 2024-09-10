@@ -1,0 +1,33 @@
+2024-09-06 08:24:44.751 +00:00 [INF] ReadLine overridden with 'Microsoft.PowerShell.EditorServices.Services.PowerShell.Console.PsrlReadLine'
+2024-09-06 08:24:45.372 +00:00 [WRN] No ConfigurationItems have been defined, configuration won't surface any configuration from the client!
+2024-09-06 09:02:42.164 +00:00 [WRN] Runtime exception occurred while executing command:
+
+System.Management.Automation.ParseException: At line:1 char:7
++     --project=abbadongcloud services enable run.googleapis.com --proj …
++       ~
+Missing expression after unary operator '--'.
+
+At line:1 char:7
++     --project=abbadongcloud services enable run.googleapis.com --proj …
++       ~~~~~~~~~~~~~~~~~~~~~
+Unexpected token 'project=abbadongcloud' in expression or statement.
+   at System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   at System.Management.Automation.PowerShell.Worker.ConstructPipelineAndDoWork(Runspace rs, Boolean performSyncInvoke)
+   at System.Management.Automation.PowerShell.Worker.CreateRunspaceIfNeededAndDoWork(Runspace rsToUse, Boolean isSync)
+   at System.Management.Automation.PowerShell.CoreInvokeHelper[TInput,TOutput](PSDataCollection`1 input, PSDataCollection`1 output, PSInvocationSettings settings)
+   at System.Management.Automation.PowerShell.CoreInvoke[TInput,TOutput](PSDataCollection`1 input, PSDataCollection`1 output, PSInvocationSettings settings)
+   at System.Management.Automation.PowerShell.Invoke[T](IEnumerable input, PSInvocationSettings settings)
+   at Microsoft.PowerShell.EditorServices.Services.PowerShell.Utility.PowerShellExtensions.InvokeAndClear[TResult](PowerShell pwsh, PSInvocationSettings invocationSettings) in C:\__w\1\s\src\PowerShellEditorServices\Services\PowerShell\Utility\PowerShellExtensions.cs:line 76
+   at Microsoft.PowerShell.EditorServices.Services.PowerShell.Utility.PowerShellExtensions.InvokeCommand[TResult](PowerShell pwsh, PSCommand psCommand, PSInvocationSettings invocationSettings) in C:\__w\1\s\src\PowerShellEditorServices\Services\PowerShell\Utility\PowerShellExtensions.cs:line 99
+   at Microsoft.PowerShell.EditorServices.Services.PowerShell.Execution.SynchronousPowerShellTask`1.ExecuteNormally(CancellationToken cancellationToken) in C:\__w\1\s\src\PowerShellEditorServices\Services\PowerShell\Execution\SynchronousPowerShellTask.cs:line 136
+2024-09-06 09:06:09.567 +00:00 [FTL] unhandled exception
+OmniSharp.Extensions.JsonRpc.InputProcessingException: There was an error processing input the contents of the buffer were ''
+ ---> System.InvalidOperationException: Reading is not allowed after reader was completed.
+   at System.IO.Pipelines.ThrowHelper.ThrowInvalidOperationException_NoReadingAllowed()
+   at System.IO.Pipelines.Pipe.AdvanceReader(SequencePosition& consumed, SequencePosition& examined)
+   at System.IO.Pipelines.Pipe.DefaultPipeReader.AdvanceTo(SequencePosition consumed, SequencePosition examined)
+   at OmniSharp.Extensions.JsonRpc.InputHandler.ProcessInputStream(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at OmniSharp.Extensions.JsonRpc.InputHandler.ProcessInputStream(CancellationToken cancellationToken)
+   at OmniSharp.Extensions.JsonRpc.InputHandler.ProcessInputStream(CancellationToken cancellationToken)
+   at OmniSharp.Extensions.JsonRpc.InputHandler.<Start>b__26_0()

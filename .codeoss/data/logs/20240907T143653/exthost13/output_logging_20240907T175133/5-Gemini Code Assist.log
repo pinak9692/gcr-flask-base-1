@@ -1,0 +1,131 @@
+I0907 17:52:00.041070   86274 serve.go:43] cloudcode_cli (Jul  2 2024 12:01:58 -0700, cl:648796832 baseline:648796263)
+I0907 17:52:00.041860   86274 serve.go:44] Command line: ["/home/kaiser8449/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I0907 17:52:00.045141   86274 life_cycle.go:135] Initializing. Architecture: "amd64", Operating system: "linux"
+I0907 17:52:00.081830   86274 configuration.go:171] product updateChannel will be used
+I0907 17:52:00.081872   86274 configuration.go:568] language thresholds: map[]
+I0907 17:52:00.081892   86274 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I0907 17:52:00.081914   86274 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0010dc511 StopSequences:map[] DataFilePromptLines:0}
+I0907 17:52:00.081978   86274 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0010dc561 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0907 17:52:00.082159   86274 configuration.go:251] Configured settings for atlasOpts: {"Project":"arc-ember","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0907 17:52:00.082171   86274 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I0907 17:52:00.082262   86274 configuration.go:265] Configured settings for canCancelRequests: true
+I0907 17:52:00.082273   86274 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+I0907 17:52:00.083725   86274 atlas.go:52] Using gRPC to access Atlas
+I0907 17:52:00.087032   86274 atlas.go:112] CompleteCode request: parent:"projects/arc-ember/locations/global" request_id:"cloudcode-648796832-bc1d9c31-bacc-43eb-8f1d-b8751be10612" prompt:{experience:COMPLETE prefix:"healthcheck-1eed8d9f-d50e-45fc-9900-ca83cf9bd02b" temperature:0.2 max_output_tokens:64 expected_samples:4}
+I0907 17:52:00.087477   86274 atlas.go:124] Atlas GenerateCode request ID: cloudcode-648796832-bc1d9c31-bacc-43eb-8f1d-b8751be10612
+I0907 17:52:00.391331   86274 atlas.go:132] CompleteCode response: suggestions:{content:"/healthcheck-1eed8d9f-d50e-45fc-9900-ca83cf9bd02b.html" score:-8.841966}
+[Error - 5:52:03 PM] Server process exited with code 0.
+I0907 17:52:04.026890   86328 serve.go:43] cloudcode_cli (Jul  2 2024 12:01:58 -0700, cl:648796832 baseline:648796263)
+I0907 17:52:04.026932   86328 serve.go:44] Command line: ["/home/kaiser8449/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I0907 17:52:04.028866   86328 life_cycle.go:135] Initializing. Architecture: "amd64", Operating system: "linux"
+I0907 17:52:04.069859   86328 configuration.go:171] product updateChannel will be used
+I0907 17:52:04.069905   86328 configuration.go:568] language thresholds: map[]
+I0907 17:52:04.069926   86328 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I0907 17:52:04.069950   86328 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000d01fb1 StopSequences:map[] DataFilePromptLines:0}
+I0907 17:52:04.069992   86328 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000cd8001 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0907 17:52:04.070161   86328 configuration.go:251] Configured settings for atlasOpts: {"Project":"arc-ember","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0907 17:52:04.070175   86328 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I0907 17:52:04.070230   86328 configuration.go:265] Configured settings for canCancelRequests: true
+I0907 17:52:04.070240   86328 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+I0907 17:52:04.076635   86328 atlas.go:52] Using gRPC to access Atlas
+I0907 17:52:04.079054   86328 atlas.go:112] CompleteCode request: parent:"projects/arc-ember/locations/global" request_id:"cloudcode-648796832-c95332d4-7123-46de-bdec-6be0a8da84ee" prompt:{experience:COMPLETE prefix:"healthcheck-fb41fd4c-e7cf-4773-b28c-924cf8f520f6" temperature:0.2 max_output_tokens:64 expected_samples:4}
+I0907 17:52:04.079471   86328 atlas.go:124] Atlas GenerateCode request ID: cloudcode-648796832-c95332d4-7123-46de-bdec-6be0a8da84ee
+I0907 17:52:04.348958   86328 atlas.go:132] CompleteCode response: 
+[Error - 5:52:07 PM] Server process exited with code 0.
+I0907 17:52:07.397584   86367 serve.go:43] cloudcode_cli (Jul  2 2024 12:01:58 -0700, cl:648796832 baseline:648796263)
+I0907 17:52:07.397631   86367 serve.go:44] Command line: ["/home/kaiser8449/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I0907 17:52:07.399514   86367 life_cycle.go:135] Initializing. Architecture: "amd64", Operating system: "linux"
+I0907 17:52:07.442085   86367 configuration.go:171] product updateChannel will be used
+I0907 17:52:07.442138   86367 configuration.go:568] language thresholds: map[]
+I0907 17:52:07.442161   86367 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I0907 17:52:07.442186   86367 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000aec4e1 StopSequences:map[] DataFilePromptLines:0}
+I0907 17:52:07.442257   86367 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000aec531 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0907 17:52:07.442439   86367 configuration.go:251] Configured settings for atlasOpts: {"Project":"arc-ember","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0907 17:52:07.442458   86367 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I0907 17:52:07.442496   86367 configuration.go:265] Configured settings for canCancelRequests: true
+I0907 17:52:07.442507   86367 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+I0907 17:52:07.443423   86367 atlas.go:52] Using gRPC to access Atlas
+I0907 17:52:07.447663   86367 atlas.go:112] CompleteCode request: parent:"projects/arc-ember/locations/global" request_id:"cloudcode-648796832-c387ca6a-1fa5-4d8f-93a8-d686115da856" prompt:{experience:COMPLETE prefix:"healthcheck-c695c4ed-a95c-4b12-b5e7-8e13ce48fc99" temperature:0.2 max_output_tokens:64 expected_samples:4}
+I0907 17:52:07.447999   86367 atlas.go:124] Atlas GenerateCode request ID: cloudcode-648796832-c387ca6a-1fa5-4d8f-93a8-d686115da856
+I0907 17:52:07.712801   86367 atlas.go:132] CompleteCode response: 
+I0907 17:52:19.672985   86367 handler.go:142] cancel was requested for: 2, needs to be canceled: false
+I0907 17:52:19.673006   86367 handler.go:146] cancel requested for 2 but not found
+I0907 17:52:23.618300   86367 experiments.go:121] Applied experiment flag "DuetAiCompletion__codeCompletion_triggerForDeletion" to completionOpts.deletionCompletion with value false
+I0907 17:52:23.618331   86367 experiments.go:128] Applied experiment flag "DuetAiLocalRag__enable_local_rag" to enableRAGL with value true
+I0907 17:52:23.618345   86367 experiments.go:136] Applied experiment flag "DuetAiLocalRag__enable_local_rag_completion" to enableRAGLCompletion with value true
+I0907 17:52:23.618357   86367 experiments.go:132] Applied experiment flag "DuetAiLocalRag__enable_local_rag_chat" to enableRAGLChat with value true
+I0907 17:52:23.618368   86367 experiments.go:105] Applied experiment flag "DuetAiCloudCodeAPI__enable_cloudcode_api" to useCloudCodeAPI with value true
+I0907 17:52:23.618385   86367 experiments.go:160] Applied experiment flag "DuetAiLocalRag__otherfiles_chat_limit" to otherFilesChatLimit with value 20
+I0907 17:52:23.618399   86367 experiments.go:156] Applied experiment flag "DuetAiLocalRag__otherfiles_completion_limit" to otherFilesCompletionLimit with value 15
+I0907 17:52:23.618410   86367 experiments.go:140] Applied experiment flag "DuetAiLocalRag__otherfiles_generation_limit" to otherFilesGenerationLimit with value 40
+I0907 17:52:23.618422   86367 experiments.go:113] Applied experiment flag "DuetAiMendelOverrides__inlineSuggestions_debounceMs" to completionOpts.debounce with value 50
+I0907 17:52:23.618435   86367 experiments.go:101] Applied experiment flag "Chat__chat_context_window_size" to chat.contextWindowSize with value -1
+I0907 17:52:23.618446   86367 experiments.go:97] Applied experiment flag "DuetAiGeneration__codeGeneration_context_window_size" to otherFilesGenerationSizeLimit with value 64000
+I0907 17:52:23.618468   86367 experiments.go:144] Applied experiment flag "DuetAiLocalRag__cache_co_located" to coLocated with value 20
+I0907 17:52:23.618482   86367 experiments.go:148] Applied experiment flag "DuetAiLocalRag__cache_file_limit" to fileLimit with value 524288
+I0907 17:52:23.618498   86367 experiments.go:152] Applied experiment flag "DuetAiLocalRag__cache_total_files" to totalFiles with value 250
+I0907 17:52:23.618509   86367 experiments.go:109] Applied experiment flag "DuetAiMendelOverrides__codeCompletion_defaultThreshold" to completionOpts.minScoreTheshold with value -4.1
+I0907 17:52:23.618533   86367 configuration.go:394] Repopulating context cache from document cache
+I0907 17:52:23.618652   86367 rag_cache.go:155] The current document with URI file:///home/kaiser8449/quickstart-docker/quickstart.sh is empty
+I0907 17:52:23.618687   86367 cloudcode.go:40] Using Cloud Code API
+I0907 17:52:23.626538   86367 client.go:182] CompleteCode request: {"ideContext":{"currentFile":{"segments":[{"content":"healthcheck-bd9b0f9d-a381-4493-bc7b-773200881ca7"},{"isSelected":true},{}]}},"project":"arc-ember","requestId":"cloudcode-648796832-20fda70d-0c20-432b-937a-35efc832d21a"}
+W0907 17:57:19.215301   86367 server.go:549] unknown method "$/setTrace"
+I0907 17:57:19.215705   86367 handler.go:142] cancel was requested for: 9, needs to be canceled: false
+I0907 17:57:19.215720   86367 handler.go:146] cancel requested for 9 but not found
+I0907 17:57:19.252041   86367 handler.go:142] cancel was requested for: 8, needs to be canceled: false
+I0907 17:57:19.252098   86367 handler.go:146] cancel requested for 8 but not found
+I0907 17:57:19.257727   86367 configuration.go:171] product updateChannel will be used
+I0907 17:57:19.257777   86367 configuration.go:568] language thresholds: map[]
+I0907 17:57:19.257799   86367 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I0907 17:57:19.257824   86367 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000ef86e1 StopSequences:map[] DataFilePromptLines:0}
+I0907 17:57:19.257864   86367 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000ef8731 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0907 17:57:19.257913   86367 configuration.go:251] Configured settings for atlasOpts: {"Project":"arc-ember","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0907 17:57:19.257956   86367 configuration.go:259] Configured settings for cloudCodeOpts: {"Project":"arc-ember","LogPrompt":true,"UseTypeoverCache":true}
+I0907 17:57:19.257968   86367 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I0907 17:57:19.258006   86367 configuration.go:265] Configured settings for canCancelRequests: true
+I0907 17:57:19.258017   86367 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+I0907 17:57:19.259253   86367 experiments.go:121] Applied experiment flag "DuetAiCompletion__codeCompletion_triggerForDeletion" to completionOpts.deletionCompletion with value false
+I0907 17:57:19.259278   86367 experiments.go:128] Applied experiment flag "DuetAiLocalRag__enable_local_rag" to enableRAGL with value true
+I0907 17:57:19.259292   86367 experiments.go:136] Applied experiment flag "DuetAiLocalRag__enable_local_rag_completion" to enableRAGLCompletion with value true
+I0907 17:57:19.259306   86367 experiments.go:132] Applied experiment flag "DuetAiLocalRag__enable_local_rag_chat" to enableRAGLChat with value true
+I0907 17:57:19.259317   86367 experiments.go:105] Applied experiment flag "DuetAiCloudCodeAPI__enable_cloudcode_api" to useCloudCodeAPI with value true
+I0907 17:57:19.259335   86367 experiments.go:160] Applied experiment flag "DuetAiLocalRag__otherfiles_chat_limit" to otherFilesChatLimit with value 20
+I0907 17:57:19.259347   86367 experiments.go:156] Applied experiment flag "DuetAiLocalRag__otherfiles_completion_limit" to otherFilesCompletionLimit with value 15
+I0907 17:57:19.259359   86367 experiments.go:140] Applied experiment flag "DuetAiLocalRag__otherfiles_generation_limit" to otherFilesGenerationLimit with value 40
+I0907 17:57:19.259372   86367 experiments.go:113] Applied experiment flag "DuetAiMendelOverrides__inlineSuggestions_debounceMs" to completionOpts.debounce with value 50
+I0907 17:57:19.259385   86367 experiments.go:101] Applied experiment flag "Chat__chat_context_window_size" to chat.contextWindowSize with value -1
+I0907 17:57:19.259409   86367 experiments.go:97] Applied experiment flag "DuetAiGeneration__codeGeneration_context_window_size" to otherFilesGenerationSizeLimit with value 64000
+I0907 17:57:19.259421   86367 experiments.go:144] Applied experiment flag "DuetAiLocalRag__cache_co_located" to coLocated with value 20
+I0907 17:57:19.259434   86367 experiments.go:148] Applied experiment flag "DuetAiLocalRag__cache_file_limit" to fileLimit with value 524288
+I0907 17:57:19.259446   86367 experiments.go:152] Applied experiment flag "DuetAiLocalRag__cache_total_files" to totalFiles with value 250
+I0907 17:57:19.259457   86367 experiments.go:109] Applied experiment flag "DuetAiMendelOverrides__codeCompletion_defaultThreshold" to completionOpts.minScoreTheshold with value -4.1
+I0907 17:57:19.259479   86367 configuration.go:394] Repopulating context cache from document cache
+I0907 17:57:19.259590   86367 rag_cache.go:155] The current document with URI file:///home/kaiser8449/quickstart-docker/quickstart.sh is empty
+W0907 17:57:19.259632   86367 server.go:549] unknown method "$/setTrace"
+I0907 17:57:19.383854   86367 configuration.go:171] product updateChannel will be used
+I0907 17:57:19.383895   86367 configuration.go:568] language thresholds: map[]
+I0907 17:57:19.383914   86367 configuration.go:526] dataFileExtensions array: [.csv .tsv .jsonl]
+I0907 17:57:19.383938   86367 configuration.go:768] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000ef8d91 StopSequences:map[] DataFilePromptLines:0}
+I0907 17:57:19.383972   86367 configuration.go:768] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000ef8de1 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0907 17:57:19.384018   86367 configuration.go:251] Configured settings for atlasOpts: {"Project":"arc-ember","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0907 17:57:19.384033   86367 configuration.go:259] Configured settings for cloudCodeOpts: {"Project":"arc-ember","LogPrompt":true,"UseTypeoverCache":true}
+I0907 17:57:19.384042   86367 configuration.go:263] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I0907 17:57:19.384077   86367 configuration.go:265] Configured settings for canCancelRequests: true
+I0907 17:57:19.384086   86367 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
+I0907 17:57:19.387315   86367 experiments.go:121] Applied experiment flag "DuetAiCompletion__codeCompletion_triggerForDeletion" to completionOpts.deletionCompletion with value false
+I0907 17:57:19.387341   86367 experiments.go:128] Applied experiment flag "DuetAiLocalRag__enable_local_rag" to enableRAGL with value true
+I0907 17:57:19.387354   86367 experiments.go:136] Applied experiment flag "DuetAiLocalRag__enable_local_rag_completion" to enableRAGLCompletion with value true
+I0907 17:57:19.387366   86367 experiments.go:132] Applied experiment flag "DuetAiLocalRag__enable_local_rag_chat" to enableRAGLChat with value true
+I0907 17:57:19.387377   86367 experiments.go:105] Applied experiment flag "DuetAiCloudCodeAPI__enable_cloudcode_api" to useCloudCodeAPI with value true
+I0907 17:57:19.387393   86367 experiments.go:160] Applied experiment flag "DuetAiLocalRag__otherfiles_chat_limit" to otherFilesChatLimit with value 20
+I0907 17:57:19.387404   86367 experiments.go:156] Applied experiment flag "DuetAiLocalRag__otherfiles_completion_limit" to otherFilesCompletionLimit with value 15
+I0907 17:57:19.387414   86367 experiments.go:140] Applied experiment flag "DuetAiLocalRag__otherfiles_generation_limit" to otherFilesGenerationLimit with value 40
+I0907 17:57:19.387425   86367 experiments.go:113] Applied experiment flag "DuetAiMendelOverrides__inlineSuggestions_debounceMs" to completionOpts.debounce with value 50
+I0907 17:57:19.387437   86367 experiments.go:101] Applied experiment flag "Chat__chat_context_window_size" to chat.contextWindowSize with value -1
+I0907 17:57:19.387446   86367 experiments.go:97] Applied experiment flag "DuetAiGeneration__codeGeneration_context_window_size" to otherFilesGenerationSizeLimit with value 64000
+I0907 17:57:19.387457   86367 experiments.go:144] Applied experiment flag "DuetAiLocalRag__cache_co_located" to coLocated with value 20
+I0907 17:57:19.387469   86367 experiments.go:148] Applied experiment flag "DuetAiLocalRag__cache_file_limit" to fileLimit with value 524288
+I0907 17:57:19.387492   86367 experiments.go:152] Applied experiment flag "DuetAiLocalRag__cache_total_files" to totalFiles with value 250
+I0907 17:57:19.387502   86367 experiments.go:109] Applied experiment flag "DuetAiMendelOverrides__codeCompletion_defaultThreshold" to completionOpts.minScoreTheshold with value -4.1
+I0907 17:57:19.387523   86367 configuration.go:394] Repopulating context cache from document cache
+I0907 17:57:19.387622   86367 rag_cache.go:155] The current document with URI file:///home/kaiser8449/quickstart-docker/quickstart.sh is empty

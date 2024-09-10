@@ -1,0 +1,9 @@
+Starting deploy...
+ - deployment.apps/go-hello-world configured
+ - service/go-hello-world-external configured
+Waiting for deployments to stabilize...
+ - deployment/go-hello-world: waiting for rollout to finish: 1 old replicas are pending termination...
+ - pod/go-hello-world-7449b77f8d-jjwpb: running.
+ - deployment/go-hello-world is ready.
+Deployments stabilized in 11.173 seconds
+Deploy completed in 11.705 seconds

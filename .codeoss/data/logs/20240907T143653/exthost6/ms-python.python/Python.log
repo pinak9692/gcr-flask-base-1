@@ -1,0 +1,7 @@
+2024-09-07 17:46:27.372 [info] Default formatter is set to null for workspace /home/kaiser8449/hello-world-8
+2024-09-07 17:46:27.372 [info] Test server listening.
+2024-09-07 17:46:27.372 [info] > conda info --json
+2024-09-07 17:46:27.372 [info] Python interpreter path: /bin/python
+2024-09-07 17:46:27.432 [info] > pyenv which python
+2024-09-07 17:46:27.432 [info] cwd: .
+2024-09-07 17:46:31.856 [info] Starting Jedi language server for hello-world-8.

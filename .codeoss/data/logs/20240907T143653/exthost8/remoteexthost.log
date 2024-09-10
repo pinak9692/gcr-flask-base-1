@@ -1,0 +1,39 @@
+2024-09-07 17:46:33.503 [info] Extension host with pid 81628 started
+2024-09-07 17:46:33.503 [error] Error: EEXIST: file already exists, open '/home/kaiser8449/.codeoss/data/User/workspaceStorage/6fcf89d5/vscode.lock'
+2024-09-07 17:46:33.513 [info] Lock '/home/kaiser8449/.codeoss/data/User/workspaceStorage/6fcf89d5/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-09-07 17:46:33.521 [info] Lock '/home/kaiser8449/.codeoss/data/User/workspaceStorage/6fcf89d5/vscode.lock': The lock does not look stale, elapsed: 828 ms, giving up.
+2024-09-07 17:46:33.540 [info] Lock '/home/kaiser8449/.codeoss/data/User/workspaceStorage/6fcf89d5-1/vscode.lock': Lock acquired.
+2024-09-07 17:46:33.786 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-09-07 17:46:33.788 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2024-09-07 17:46:33.788 [info] ExtensionService#_doActivateExtension tht13.python, startup: false, activationEvent: 'onLanguage:python'
+2024-09-07 17:46:33.788 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-07 17:46:35.632 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2024-09-07 17:46:35.666 [error] Activating extension tht13.python failed due to an error:
+2024-09-07 17:46:35.666 [error] TypeError: Cannot read properties of undefined (reading 'document')
+	at PythonExtension.startServer (/home/kaiser8449/.codeoss/extensions/tht13.python-0.2.2-universal/out/client/src/pythonMain.js:146:55)
+	at activate (/home/kaiser8449/.codeoss/extensions/tht13.python-0.2.2-universal/out/client/src/pythonMain.js:9:38)
+	at X.kb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:13465)
+	at X.jb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:13175)
+	at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:11197
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async h.n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:143:6281)
+	at async h.m (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:143:6244)
+	at async h.l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:143:5701)
+2024-09-07 17:46:35.670 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-07 17:46:35.938 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onTerminalProfile:cloudshell.default'
+2024-09-07 17:46:36.194 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-07 17:46:36.194 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-07 17:46:36.633 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-07 17:46:36.634 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-07 17:46:39.552 [info] ExtensionService#_doActivateExtension redhat.fabric8-analytics, startup: true, activationEvent: 'workspaceContains:**/package.json,**/pom.xml,**/go.mod,**/requirements.txt'
+2024-09-07 17:46:40.220 [info] Eager extensions activated
+2024-09-07 17:46:40.227 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 17:46:40.227 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 17:46:40.228 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 17:46:40.237 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 17:46:40.237 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 17:46:40.238 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2024-09-07 17:46:46.234 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 17:46:47.024 [info] Extension host terminating: received terminate message from renderer
+2024-09-07 17:46:47.026 [info] Lock '/home/kaiser8449/.codeoss/data/User/workspaceStorage/6fcf89d5-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-09-07 17:46:48.737 [info] Extension host with pid 81628 exiting with code 0

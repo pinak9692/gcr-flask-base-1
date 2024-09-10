@@ -1,0 +1,285 @@
+Generating tags...
+ - go-hello-world -> go-hello-world:latest
+Tags generated in 170.226µs
+Checking cache...
+ - go-hello-world: Not found. Building
+Cache check completed in 3.196 seconds
+Starting build...
+Found [minikube] context, using local docker daemon.
+Building [go-hello-world]...
+Target platforms: [linux/amd64]
+Creating tar file from 24 file(s)
+Added 5/24 files to tar file
+Added 10/24 files to tar file
+Sending build context to Docker daemon  545.8kBAdded 15/24 files to tar file
+Added 20/24 files to tar file
+Creating tar file completed in 10.237075ms
+Sending build context to Docker daemon  987.1kB
+Step 1/15 : FROM golang:1.21 as build
+1.21: Pulling from library/golang
+903681d87777: Pulling fs layer
+3cbbe86a28c2: Pulling fs layer
+6ed93aa58a52: Pulling fs layer
+1f46bd02dde3: Pulling fs layer
+54bf7053e2d9: Pulling fs layer
+532d43a0bc41: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+532d43a0bc41: Waiting
+4f4fb700ef54: Waiting
+1f46bd02dde3: Waiting
+54bf7053e2d9: Waiting
+3cbbe86a28c2: Verifying Checksum
+3cbbe86a28c2: Download complete
+903681d87777: Verifying Checksum
+903681d87777: Download complete
+6ed93aa58a52: Verifying Checksum
+6ed93aa58a52: Download complete
+532d43a0bc41: Verifying Checksum
+532d43a0bc41: Download complete
+54bf7053e2d9: Verifying Checksum
+1f46bd02dde3: Verifying Checksum
+1f46bd02dde3: Download complete
+54bf7053e2d9: Download complete
+4f4fb700ef54: Verifying Checksum
+903681d87777: Pull complete
+3cbbe86a28c2: Pull complete
+6ed93aa58a52: Pull complete
+1f46bd02dde3: Pull complete
+54bf7053e2d9: Pull complete
+532d43a0bc41: Pull complete
+4f4fb700ef54: Pull complete
+Digest: sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb
+Status: Downloaded newer image for golang:1.21
+ ---> 246ea1ed9cdb
+Step 2/15 : WORKDIR /hello-world
+ ---> Running in 77a8d1b9fbc6
+ ---> 7c223fdf2aa4
+Step 3/15 : ENV CGO_ENABLED=0
+ ---> Running in f23645b9f6e5
+ ---> f92e3774649b
+Step 4/15 : COPY go.mod go.sum ./
+ ---> eaa1233eb49b
+Step 5/15 : RUN go mod download
+ ---> Running in 79bf7c8a3d84
+[91mgo: no module dependencies to download
+[0m ---> 9d2ea54f8be1
+Step 6/15 : COPY . ./
+ ---> 3fcd252f1de7
+Step 7/15 : ARG SKAFFOLD_GO_GCFLAGS
+ ---> Running in 8eba38c502aa
+ ---> 0ea55dd6df1e
+Step 8/15 : RUN echo "Go gcflags: ${SKAFFOLD_GO_GCFLAGS}"
+ ---> Running in 08f3aae11ac2
+Go gcflags: 
+ ---> 82bda6d3b3b3
+Step 9/15 : RUN go build -gcflags="${SKAFFOLD_GO_GCFLAGS}" -mod=readonly -v -o /app
+ ---> Running in 82896417caba
+[91minternal/goarch
+[0m[91minternal/unsafeheader
+[0m[91minternal/coverage/rtcov
+[0m[91minternal/godebugs
+[0m[91minternal/cpu
+[0m[91minternal/goexperiment
+[0m[91minternal/abi
+[0m[91minternal/goos
+[0m[91mruntime/internal/atomic
+[0m[91mruntime/internal/math
+[0m[91mruntime/internal/sys
+[0m[91mruntime/internal/syscall
+[0m[91minternal/bytealg
+[0m[91minternal/race
+[0m[91msync/atomic
+[0m[91municode
+[0m[91municode/utf8
+[0m[91mencoding
+[0m[91mmath/bits
+[0m[91minternal/itoa
+[0m[91municode/utf16
+[0m[91mlog/internal
+[0m[91mcontainer/list
+[0m[91mmath
+[0m[91mcrypto/internal/alias
+[0m[91mcrypto/subtle
+[0m[91mruntime
+[0m[91mcrypto/internal/boring/sig
+[0m[91mvendor/golang.org/x/crypto/cryptobyte/asn1
+[0m[91minternal/nettrace
+[0m[91mvendor/golang.org/x/crypto/internal/alias
+[0m[91minternal/reflectlite
+[0m[91msync
+[0m[91minternal/singleflight
+[0m[91minternal/bisect
+[0m[91minternal/testlog
+[0m[91minternal/godebug
+[0m[91merrors
+sort
+[0m[91mio
+[0m[91mstrconv
+[0m[91minternal/oserror
+[0m[91msyscall
+[0m[91minternal/safefilepath
+[0m[91mbytes
+[0m[91mpath
+[0m[91mstrings
+[0m[91mhash
+[0m[91mreflect
+[0m[91mhash/crc32
+[0m[91mhtml
+[0m[91mregexp/syntax
+[0m[91mbufio
+[0m[91mcrypto
+[0m[91mcrypto/internal/randutil
+[0m[91mmath/rand
+[0m[91minternal/syscall/unix
+[0m[91mtime
+[0m[91minternal/syscall/execenv
+[0m[91mregexp
+[0m[91mcrypto/internal/nistec/fiat
+[0m[91mcrypto/rc4
+[0m[91mvendor/golang.org/x/net/dns/dnsmessage
+[0m[91minternal/poll
+[0m[91mio/fs
+[0m[91mcontext
+[0m[91mencoding/binary
+[0m[91minternal/fmtsort
+[0m[91mos
+[0m[91membed
+[0m[91minternal/intern
+[0m[91mnet/netip
+[0m[91mvendor/golang.org/x/text/transform
+[0m[91mnet/http/internal/ascii
+[0m[91mencoding/base64
+[0m[91mcrypto/cipher
+[0m[91mcrypto/internal/edwards25519/field
+[0m[91mcrypto/internal/nistec
+[0m[91mfmt
+[0m[91mpath/filepath
+[0m[91mcrypto/internal/boring
+[0m[91mcrypto/aes
+[0m[91mcrypto/des
+[0m[91mcrypto/sha512
+[0m[91mcrypto/internal/edwards25519
+[0m[91mcrypto/hmac
+[0m[91mcrypto/ecdh
+[0m[91mcrypto/md5
+[0m[91mcrypto/sha1
+[0m[91mencoding/json
+[0m[91mnet/url
+[0m[91mtext/template/parse
+[0m[91mlog
+[0m[91mcompress/flate
+[0m[91mmath/big
+[0m[91mtext/template
+[0m[91mcompress/gzip
+[0m[91mcrypto/sha256
+[0m[91mencoding/hex
+[0m[91mencoding/pem
+[0m[91mnet
+[0m[91mvendor/golang.org/x/crypto/chacha20
+[0m[91mvendor/golang.org/x/crypto/internal/poly1305
+[0m[91mio/ioutil
+[0m[91mvendor/golang.org/x/sys/cpu
+[0m[91mvendor/golang.org/x/crypto/chacha20poly1305
+[0m[91mhtml/template
+[0m[91mcrypto/rand
+[0m[91mcrypto/elliptic
+[0m[91mcrypto/internal/bigmod
+[0m[91mcrypto/internal/boring/bbig
+[0m[91mencoding/asn1
+[0m[91mcrypto/ed25519
+[0m[91mcrypto/rsa
+[0m[91mcrypto/dsa
+[0m[91mvendor/golang.org/x/crypto/hkdf
+[0m[91mvendor/golang.org/x/text/unicode/bidi
+[0m[91mvendor/golang.org/x/text/unicode/norm
+[0m[91mvendor/golang.org/x/crypto/cryptobyte
+[0m[91mcrypto/ecdsa
+[0m[91mcrypto/x509/pkix
+[0m[91mvendor/golang.org/x/text/secure/bidirule
+[0m[91mvendor/golang.org/x/net/http2/hpack
+[0m[91mmime
+[0m[91mcrypto/x509
+[0m[91mvendor/golang.org/x/net/idna
+[0m[91mnet/textproto
+[0m[91mmime/quotedprintable
+[0m[91mnet/http/internal
+[0m[91mmime/multipart
+[0m[91mvendor/golang.org/x/net/http/httpguts
+[0m[91mvendor/golang.org/x/net/http/httpproxy
+[0m[91mcrypto/tls
+[0m[91mnet/http/httptrace
+[0m[91mnet/http
+[0m[91mhello-world
+[0m ---> b43dd628a5dc
+Step 10/15 : FROM gcr.io/distroless/static-debian11
+latest: Pulling from distroless/static-debian11
+1c56d6035a42: Pulling fs layer
+e33bce57de28: Pulling fs layer
+473d8557b1b2: Pulling fs layer
+b6824ed73363: Pulling fs layer
+7c12895b777b: Pulling fs layer
+33e068de2649: Pulling fs layer
+5664b15f108b: Pulling fs layer
+27be814a09eb: Pulling fs layer
+4aa0ea1413d3: Pulling fs layer
+9ef7d74bdfdf: Pulling fs layer
+9112d77ee5b1: Pulling fs layer
+5664b15f108b: Waiting
+27be814a09eb: Waiting
+4aa0ea1413d3: Waiting
+9ef7d74bdfdf: Waiting
+b6824ed73363: Waiting
+7c12895b777b: Waiting
+9112d77ee5b1: Waiting
+33e068de2649: Waiting
+473d8557b1b2: Verifying Checksum
+473d8557b1b2: Download complete
+e33bce57de28: Download complete
+b6824ed73363: Verifying Checksum
+b6824ed73363: Download complete
+7c12895b777b: Verifying Checksum
+7c12895b777b: Download complete
+33e068de2649: Verifying Checksum
+33e068de2649: Download complete
+1c56d6035a42: Verifying Checksum
+1c56d6035a42: Download complete
+5664b15f108b: Verifying Checksum
+5664b15f108b: Download complete
+1c56d6035a42: Pull complete
+e33bce57de28: Pull complete
+27be814a09eb: Verifying Checksum
+27be814a09eb: Download complete
+4aa0ea1413d3: Verifying Checksum
+4aa0ea1413d3: Download complete
+9ef7d74bdfdf: Download complete
+473d8557b1b2: Pull complete
+b6824ed73363: Pull complete
+7c12895b777b: Pull complete
+33e068de2649: Pull complete
+5664b15f108b: Pull complete
+27be814a09eb: Pull complete
+4aa0ea1413d3: Pull complete
+9ef7d74bdfdf: Pull complete
+9112d77ee5b1: Verifying Checksum
+9112d77ee5b1: Download complete
+9112d77ee5b1: Pull complete
+Digest: sha256:1dbe426d60caed5d19597532a2d74c8056cd7b1674042b88f7328690b5ead8ed
+Status: Downloaded newer image for gcr.io/distroless/static-debian11:latest
+ ---> 9de0a16f3958
+Step 11/15 : ENV GOTRACEBACK=single
+ ---> Running in 26eba50eb82e
+ ---> ef18c8c61b01
+Step 12/15 : WORKDIR /hello-world
+ ---> Running in b9ed26a5eed7
+ ---> 51b614d53283
+Step 13/15 : COPY --from=build /app .
+ ---> 3755448483b4
+Step 14/15 : COPY template ./template
+ ---> 6d75b20751b3
+Step 15/15 : ENTRYPOINT ["./app"]
+ ---> Running in 16730ed63cee
+ ---> b444a1ce3d31
+Successfully built b444a1ce3d31
+Successfully tagged go-hello-world:latest
+Build [go-hello-world] succeeded
+Build completed in 47.612 seconds

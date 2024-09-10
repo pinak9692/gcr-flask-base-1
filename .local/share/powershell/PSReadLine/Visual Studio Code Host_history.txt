@@ -1,0 +1,4 @@
+gcloud services enable \
+    run.googleapis.com \
+    --project=abbadongcloud services enable run.googleapis.com --project=abbadon
+gcloud services enable run.googleapis.com --project=abbadon

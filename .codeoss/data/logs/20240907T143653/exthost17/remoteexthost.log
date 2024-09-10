@@ -1,0 +1,23 @@
+2024-09-07 17:57:19.543 [info] Extension host with pid 87752 started
+2024-09-07 17:57:19.543 [error] Error: EEXIST: file already exists, open '/home/kaiser8449/.codeoss/data/User/workspaceStorage/-335a15/vscode.lock'
+2024-09-07 17:57:19.556 [info] Lock '/home/kaiser8449/.codeoss/data/User/workspaceStorage/-335a15/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-09-07 17:57:19.563 [info] Lock '/home/kaiser8449/.codeoss/data/User/workspaceStorage/-335a15/vscode.lock': The lock does not look stale, elapsed: 3645 ms, giving up.
+2024-09-07 17:57:19.564 [error] Error: EEXIST: file already exists, open '/home/kaiser8449/.codeoss/data/User/workspaceStorage/-335a15-1/vscode.lock'
+2024-09-07 17:57:19.585 [info] Lock '/home/kaiser8449/.codeoss/data/User/workspaceStorage/-335a15-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-09-07 17:57:19.585 [info] Lock '/home/kaiser8449/.codeoss/data/User/workspaceStorage/-335a15-1/vscode.lock': The lock does not look stale, elapsed: 2999 ms, giving up.
+2024-09-07 17:57:19.592 [info] Lock '/home/kaiser8449/.codeoss/data/User/workspaceStorage/-335a15-2/vscode.lock': Lock acquired.
+2024-09-07 17:57:19.769 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-07 17:57:20.012 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-07 17:57:20.118 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-07 17:57:20.118 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-07 17:57:21.502 [info] Eager extensions activated
+2024-09-07 17:57:21.503 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 17:57:21.504 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 17:57:21.504 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 17:57:21.505 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 17:57:21.505 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 17:57:21.506 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-09-07 17:57:21.507 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2024-09-07 17:57:26.728 [info] Extension host terminating: received terminate message from renderer
+2024-09-07 17:57:26.730 [info] Lock '/home/kaiser8449/.codeoss/data/User/workspaceStorage/-335a15-2/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-09-07 17:57:26.742 [info] Extension host with pid 87752 exiting with code 0

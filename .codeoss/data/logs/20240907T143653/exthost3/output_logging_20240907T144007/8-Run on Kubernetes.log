@@ -1,0 +1,580 @@
+Starting to run the app using configuration 'Run on Kubernetes' from .vscode/launch.json...
+To view more detailed logs, go to Output channel : "Run on Kubernetes - Detailed"
+
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource pod/python-hello-world-8444865cb7-h2j9n status updated to In Progress
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource pod/python-hello-world-7bbcc8b8dc-qfzj7 status updated to In Progress
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource pod/python-hello-world-645c566f8b-s8hnt status updated to In Progress
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource pod/python-hello-world-7446b9ddf4-b52bv status updated to In Progress
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource pod/python-hello-world-6cdcdf695f-8nwm6 status updated to In Progress
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource pod/python-hello-world-7566596b5c-tdlch status updated to In Progress
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource pod/python-hello-world-79b5747469-dd5qn status updated to In Progress
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource pod/python-hello-world-6c45b4b675-8k7hb status updated to In Progress
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource pod/python-hello-world-5dd956576b-jrljt status updated to In Progress
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource pod/python-hello-world-7fc5dfbfc-tm4vd status updated to In Progress
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource pod/python-hello-world-7c6b44c77-745bf status updated to In Progress
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+Update initiated
+Deploy started
+Status check started
+Resource pod/python-hello-world-6c45b4b675-ncm6k status updated to In Progress
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource pod/python-hello-world-5956dd9898-jzjwz status updated to In Progress
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource pod/python-hello-world-7bf5d9cb75-gw57p status updated to In Progress
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+Update initiated
+Deploy started
+Status check started
+Resource pod/python-hello-world-6c45b4b675-swfr7 status updated to In Progress
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource pod/python-hello-world-6b54ddbfc6-d4ftk status updated to In Progress
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource pod/python-hello-world-669485996d-zsxn7 status updated to In Progress
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource pod/python-hello-world-5cf985dffb-28wzl status updated to In Progress
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource pod/python-hello-world-68bcff66d6-9qp52 status updated to In Progress
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Update initiated
+Deploy started
+Status check started
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+Update initiated
+Deploy started
+Status check started
+Resource pod/python-hello-world-5cf985dffb-jwhng status updated to In Progress
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Update initiated
+Build started for artifact python-hello-world
+Build completed for artifact python-hello-world
+
+Deploy started
+Status check started
+Resource pod/python-hello-world-847ffb6fbd-j5rdn status updated to In Progress
+Resource deployment/python-hello-world status updated to In Progress
+Resource deployment/python-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service python-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-7/.vscode/launch.json and relaunch the application.
+Starting to run the app using configuration 'Run on Kubernetes' from .vscode/launch.json...
+To view more detailed logs, go to Output channel : "Run on Kubernetes - Detailed"
+Starting to run the app using configuration 'Run on Kubernetes' from .vscode/launch.json...
+To view more detailed logs, go to Output channel : "Run on Kubernetes - Detailed"

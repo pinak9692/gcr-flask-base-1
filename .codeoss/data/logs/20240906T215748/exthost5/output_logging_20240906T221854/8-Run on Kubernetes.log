@@ -1,0 +1,43 @@
+Starting to run the app using configuration 'Run on Kubernetes' from .vscode/launch.json...
+To view more detailed logs, go to Output channel : "Run on Kubernetes - Detailed"
+
+Update initiated
+Build started for artifact go-hello-world
+Build completed for artifact go-hello-world
+
+Deploy started
+Status check started
+Resource pod/go-hello-world-5dff75c9c9-4hd5c status updated to In Progress
+Resource deployment/go-hello-world status updated to In Progress
+Resource deployment/go-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service go-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-5/.vscode/launch.json and relaunch the application.
+Starting to run the app using configuration 'Run on Kubernetes' from .vscode/launch.json...
+To view more detailed logs, go to Output channel : "Run on Kubernetes - Detailed"
+
+Update initiated
+Deploy started
+Status check started
+Resource deployment/go-hello-world status updated to In Progress
+Resource deployment/go-hello-world status completed successfully
+Status check succeeded
+
+**************URLs*****************
+Deploy completed
+
+Forwarded URL from service go-hello-world-external: http://localhost:4503
+Update succeeded
+***********************************
+Watching for changes...
+To disable watch mode for subsequent runs, set watch to false in your launch configuration /home/kaiser8449/hello-world-5/.vscode/launch.json and relaunch the application.
+Cleaning up...
+Finished clean up.
+To disable cleaning up resources after each run, set cleanUp to false in your launch configuration /home/kaiser8449/hello-world-5/.vscode/launch.json
