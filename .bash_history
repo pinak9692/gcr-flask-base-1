@@ -21,3 +21,10 @@ git init
 git add .
 git commit -m "first commit"
 willezurmacht9692@gmail.com
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/pinak9692/hello1.git
+git push -u origin main
+git remote add origin git@github.com:pinak9692/hello1.git
+git push -u origin main

@@ -1,0 +1,22 @@
+2024-09-10 17:34:03.553 [info] Extension host with pid 5889 started
+2024-09-10 17:34:03.553 [error] Error: EEXIST: file already exists, open '/home/kaiser8449/.codeoss/data/User/workspaceStorage/-79d5fb27/vscode.lock'
+2024-09-10 17:34:03.560 [info] Lock '/home/kaiser8449/.codeoss/data/User/workspaceStorage/-79d5fb27/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-09-10 17:34:03.563 [info] Lock '/home/kaiser8449/.codeoss/data/User/workspaceStorage/-79d5fb27/vscode.lock': The lock does not look stale, elapsed: 195 ms, giving up.
+2024-09-10 17:34:03.575 [info] Lock '/home/kaiser8449/.codeoss/data/User/workspaceStorage/-79d5fb27-1/vscode.lock': Lock acquired.
+2024-09-10 17:34:09.664 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-10 17:34:09.676 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2024-09-10 17:34:10.000 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-10 17:34:10.000 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-10 17:34:13.338 [info] ExtensionService#_doActivateExtension redhat.fabric8-analytics, startup: true, activationEvent: 'workspaceContains:**/package.json,**/pom.xml,**/go.mod,**/requirements.txt'
+2024-09-10 17:34:13.665 [info] Eager extensions activated
+2024-09-10 17:34:13.665 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-09-10 17:34:13.666 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-09-10 17:34:13.666 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-09-10 17:34:13.666 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-10 17:34:13.667 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-10 17:34:13.667 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-09-10 17:34:13.667 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2024-09-10 17:34:16.196 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2024-09-10 17:34:16.547 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-10 17:34:16.548 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-10 17:34:16.548 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
