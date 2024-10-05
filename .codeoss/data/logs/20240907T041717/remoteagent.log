@@ -1,9 +1,0 @@
-2024-09-07 04:17:17.124 [info] 
-
-
-
-
-2024-09-07 04:17:17.162 [info] Extension host agent started.
-2024-09-07 04:17:18.623 [info] [127.0.0.1][6a1516cb][ManagementConnection] New connection established.
-2024-09-07 04:17:18.775 [info] [127.0.0.1][77661c32][ExtensionHostConnection] New connection established.
-2024-09-07 04:17:20.354 [info] [127.0.0.1][77661c32][ExtensionHostConnection] <1025> Launched Extension Host Process.

@@ -1,0 +1,6 @@
+2024-10-03 11:21:13.681 [warning] /home/kaiser8449/.ssh/config: ENOENT: no such file or directory, open '/home/kaiser8449/.ssh/config'
+2024-10-03 11:21:13.681 [info] Activation> Extension version: 0.88.1
+2024-10-03 11:21:21.065 [info] Looking for git repository
+2024-10-03 11:21:21.065 [info] Found 0 repositories during activation
+2024-10-03 11:21:21.065 [info] Git repository found, initializing review manager and pr tree view.
+2024-10-03 11:21:21.066 [info] Registering git provider

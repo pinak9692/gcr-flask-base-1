@@ -1,0 +1,131 @@
+Retrieving builders.
+Getting Gcloud Login State.
+Using picked GCP Project "abbadon"
+Checking Cloud Run API status.
+Using current GCP Project "abbadon"
+Checking Cloud Run API status.
+Getting Cloud Run Services for project "abbadon".
+Getting Cloud Run Services for project "abbadon".
+Executing Skaffold build.
+Running skaffold command: /usr/bin/skaffold init --artifact {"image":"gcr.io/abbadon/django-66","builder":"Docker","payload":{"path":"Dockerfile"}} --skip-deploy --filename /tmp/cloud-code-cloud-run-j8aQKo/skaffold.yaml --force
+Setting build tagPolicy to SHA256.
+Setting statusCheckDeadlineSeconds to 5 minutes
+Setting build environment to 'local'
+Created the file /tmp/cloud-code-cloud-run-j8aQKo/skaffold.yaml.
+Running skaffold command: build --filename /tmp/cloud-code-cloud-run-j8aQKo/skaffold.yaml --kube-context='' --platform=linux/amd64
+Generating tags...
+ - gcr.io/abbadon/django-66 ->
+gcr.io/abbadon/django-66:latest
+Checking cache...
+- gcr.io/abbadon/django-66: Not found. Building
+Starting build...
+Building [gcr.io/abbadon/django-66]...
+Target platforms: [linux/amd64]
+Sending build context to Docker daemon  412.2kB
+Step 1/6 : FROM python:3.12-alpine
+3.12-alpine: Pulling from library/python
+43c4264eed91: Pulling fs layer
+89daaeb4e2cb: Pulling fs layer
+e4d124d6aa63: Pulling fs layer
+27ac5a2e3386: Pulling fs layer
+27ac5a2e3386: Waiting
+89daaeb4e2cb: Verifying Checksum
+89daaeb4e2cb:
+Download complete
+43c4264eed91: Download complete
+43c4264eed91: Pull complete
+e4d124d6aa63: Verifying Checksum
+e4d124d6aa63:
+Download complete
+27ac5a2e3386: Download complete
+89daaeb4e2cb: Pull complete
+e4d124d6aa63: Pull complete
+27ac5a2e3386: Pull complete
+Digest: sha256:e75de178bc15e72f3f16bf75a6b484e33d39a456f03fc771a2b3abb9146b75f8
+Status: Downloaded newer image for python:3.12-alpine
+---> 90cba383afad
+Step 2/6 : WORKDIR /app
+
+---> Running in 6b36f34d38e8
+---> 9e1c3f479f2c
+Step 3/6 : COPY requirements.txt .
+---> 41e6252ed37c
+Step 4/6 : RUN pip install --trusted-host pypi.python.org -r requirements.txt
+---> Running in 0200d9cef9c6
+Collecting django==4.2.10 (from -r requirements.txt (line 1))
+Downloading Django-4.2.10-py3-none-any.whl.metadata (4.1 kB)
+Collecting requests==2.31.0 (from -r requirements.txt (line 2))
+Downloading requests-2.31.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting debugpy (from -r requirements.txt (line 3))
+Downloading debugpy-1.8.6-py2.py3-none-any.whl.metadata (1.1 kB)
+Collecting asgiref<4,>=3.6.0 (from django==4.2.10->-r requirements.txt (line 1))
+Downloading asgiref-3.8.1-py3-none-any.whl.metadata (9.3 kB)
+Collecting sqlparse>=0.3.1 (from django==4.2.10->-r requirements.txt (line 1))
+Downloading sqlparse-0.5.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting charset-normalizer<4,>=2 (from requests==2.31.0->-r requirements.txt (line 2))
+Downloading charset_normalizer-3.3.2-cp312-cp312-musllinux_1_1_x86_64.whl.metadata (33 kB)
+Collecting idna<4,>=2.5 (from requests==2.31.0->-r requirements.txt (line 2))
+Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting urllib3<3,>=1.21.1 (from requests==2.31.0->-r requirements.txt (line 2))
+Downloading urllib3-2.2.3-py3-none-any.whl.metadata (6.5 kB)
+Collecting certifi>=2017.4.17 (from requests==2.31.0->-r requirements.txt (line 2))
+Downloading certifi-2024.8.30-py3-none-any.whl.metadata (2.2 kB)
+Downloading Django-4.2.10-py3-none-any.whl (8.0 MB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.0/8.0 MB 132.9 MB/s eta 0:00:00
+
+Downloading requests-2.31.0-py3-none-any.whl (62 kB)
+Downloading debugpy-1.8.6-py2.py3-none-any.whl (5.2 MB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.2/5.2 MB 10.8 MB/s eta 0:00:00
+Downloading asgiref-3.8.1-py3-none-any.whl (23 kB)
+Downloading certifi-2024.8.30-py3-none-any.whl (167 kB)
+Downloading charset_normalizer-3.3.2-cp312-cp312-musllinux_1_1_x86_64.whl (142 kB)
+Downloading idna-3.10-py3-none-any.whl (70 kB)
+Downloading sqlparse-0.5.1-py3-none-any.whl (44 kB)
+Downloading urllib3-2.2.3-py3-none-any.whl (126 kB)
+Installing collected packages: urllib3, sqlparse, idna, debugpy, charset-normalizer, certifi, asgiref, requests, django
+Successfully installed asgiref-3.8.1 certifi-2024.8.30 charset-normalizer-3.3.2 debugpy-1.8.6 django-4.2.10 idna-3.10 requests-2.31.0 sqlparse-0.5.1 urllib3-2.2.3
+[91mWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+[0m
+---> 02544fc7423e
+Step 5/6 : COPY . .
+---> 01bd898c8311
+Step 6/6 : ENTRYPOINT ["python", "manage.py", "runserver", "--noreload"]
+
+---> Running in 505870e68fb4
+---> 5d00ef518a70
+Successfully built 5d00ef518a70
+Successfully tagged gcr.io/abbadon/django-66:latest
+The push refers to repository [gcr.io/abbadon/django-66]
+16c1c9cbdb22: Preparing
+c0d9b002869d: Preparing
+331aac6ac271: Preparing
+1716efc28edf: Preparing
+067ea9e8160a: Preparing
+ae31132e71b1: Preparing
+0263bd6854c0: Preparing
+ae31132e71b1: Waiting
+63ca1fbb43ae: Preparing
+0263bd6854c0: Waiting
+63ca1fbb43ae: Waiting
+067ea9e8160a: Layer already exists
+ae31132e71b1:
+Layer already exists
+0263bd6854c0: Layer already exists
+63ca1fbb43ae: Layer already exists
+1716efc28edf: Pushed
+16c1c9cbdb22:
+Pushed
+331aac6ac271: Pushed
+c0d9b002869d: Pushed
+latest: digest: sha256:8d7f0c3f33c80d1aa81ffefc91c2dc3737f2f9efbc0887a2d2408c5d49172afa size: 1992
+Build [gcr.io/abbadon/django-66] succeeded
+Executing Gcloud Run Deploy
+Running gcloud command: run deploy django-66 --project abbadon --image gcr.io/abbadon/django-66 --client-name Cloud Code for VS Code --client-version 2.14.0 --platform managed --region us-central1 --allow-unauthenticated --port 8080 --cpu 1 --memory 256Mi --concurrency 80 --timeout 300 --clear-env-vars
+Deploying container to Cloud Run service [django-66] in project [abbadon] region [us-central1]
+Deploying new service...
+Setting IAM Policy.................................done
+Creating Revision........................................................................................................................done
+Routing traffic.....done
+Done.
+Service [django-66] revision [django-66-00001-99n] has been deployed and is serving 100 percent of traffic.
+Service URL: https://django-66-489842209166.us-central1.run.app

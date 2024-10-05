@@ -1,0 +1,60 @@
+2024-10-03 22:46:54.193 [info] Default formatter is set to null for workspace /home/kaiser8449/django66
+2024-10-03 22:46:54.193 [info] Test server listening.
+2024-10-03 22:46:54.193 [info] > conda info --json
+2024-10-03 22:46:54.193 [info] > hatch env show --json
+2024-10-03 22:46:54.193 [info] cwd: .
+2024-10-03 22:46:54.193 [info] > pyenv which python
+2024-10-03 22:46:54.193 [info] cwd: .
+2024-10-03 22:46:54.195 [info] Found: /bin/python --> /usr/bin/python3.10
+2024-10-03 22:46:54.260 [info] Found: /bin/python2 --> /bin/python2.7
+2024-10-03 22:46:54.600 [info] Found: /bin/python2.7 --> /bin/python2.7
+2024-10-03 22:46:54.612 [info] Found: /bin/python3 --> /bin/python3.10
+2024-10-03 22:46:54.613 [info] Found: /bin/python3.10 --> /bin/python3.10
+2024-10-03 22:46:54.651 [info] Found: /usr/bin/python --> /usr/bin/python3.10
+2024-10-03 22:46:54.652 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2024-10-03 22:46:54.652 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2024-10-03 22:46:54.652 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2024-10-03 22:46:54.652 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2024-10-03 22:46:54.709 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-10-03 22:46:54.746 [info] > /bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-10-03 22:46:54.786 [info] > /bin/python3 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-10-03 22:46:54.996 [warning] Error: Command failed: /bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:529:35)
+    at maybeClose (node:internal/child_process:1098:16)
+    at Socket.<anonymous> (node:internal/child_process:450:11)
+    at Socket.emit (node:events:517:28)
+    at Pipe.<anonymous> (node:net:350:12) {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py'
+}
+2024-10-03 22:46:54.996 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-10-03 22:46:55.024 [info] > /bin/python2 /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-10-03 22:46:55.061 [info] > /usr/bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-10-03 22:46:55.066 [warning] Error: Command failed: /usr/bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:529:35)
+    at maybeClose (node:internal/child_process:1098:16)
+    at Socket.<anonymous> (node:internal/child_process:450:11)
+    at Socket.emit (node:events:517:28)
+    at Pipe.<anonymous> (node:net:350:12) {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py'
+}
+2024-10-03 22:46:55.066 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-10-03 22:46:55.091 [info] > /usr/bin/python2 /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-10-03 22:46:55.255 [info] Python interpreter path: /bin/python
+2024-10-03 22:46:59.115 [info] Starting Jedi language server for django66.
+2024-10-03 22:48:08.225 [info] Discover tests for workspace name: undefined - uri: /User/settings.json

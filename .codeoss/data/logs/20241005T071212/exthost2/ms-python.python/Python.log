@@ -1,0 +1,10 @@
+2024-10-05 07:21:33.087 [info] Default formatter is set to null for workspace /home/kaiser8449/gcr-flask-base-1
+2024-10-05 07:21:33.087 [info] Test server listening.
+2024-10-05 07:21:33.087 [info] > hatch env show --json
+2024-10-05 07:21:33.087 [info] cwd: .
+2024-10-05 07:21:33.105 [info] > pyenv which python
+2024-10-05 07:21:33.105 [info] cwd: .
+2024-10-05 07:21:33.128 [info] Python interpreter path: /bin/python
+2024-10-05 07:21:38.110 [info] Starting Jedi language server for gcr-flask-base-1.
+2024-10-05 07:31:16.760 [info] > conda info --json
+2024-10-05 07:39:31.212 [info] Discover tests for workspace name: gcr-flask-base-1 - uri: /home/kaiser8449/gcr-flask-base-1/app.py

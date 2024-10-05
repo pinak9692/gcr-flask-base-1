@@ -1,0 +1,21 @@
+2024-10-03 22:46:55.029 [warning] /home/kaiser8449/.ssh/config: ENOENT: no such file or directory, open '/home/kaiser8449/.ssh/config'
+2024-10-03 22:46:55.029 [info] Activation> Extension version: 0.88.1
+2024-10-03 22:46:59.173 [info] Looking for git repository
+2024-10-03 22:46:59.173 [info] Found 0 repositories during activation
+2024-10-03 22:46:59.173 [info] Git repository found, initializing review manager and pr tree view.
+2024-10-03 22:46:59.174 [info] Registering git provider
+2024-10-03 22:47:07.781 [info] Repository file:///home/kaiser8449 has been opened
+2024-10-03 22:47:07.781 [info] Review+0> Validate state in progress
+2024-10-03 22:47:07.781 [info] Review+0> Validating state...
+2024-10-03 22:47:07.795 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-10-03 22:47:07.795 [info] No GitHub remotes found for folder /home/kaiser8449
+2024-10-03 22:47:07.797 [info] Trying to use globalState for assignableUsers.
+2024-10-03 22:47:07.888 [info] Using globalState assignableUsers for 0.
+2024-10-03 22:47:09.488 [info] Review+0> Validate state in progress
+2024-10-03 22:47:09.488 [info] Review+0> Validating state...
+2024-10-03 22:47:09.489 [info] Repo state for file:///home/kaiser8449 changed.
+2024-10-03 22:47:09.489 [info] Repo file:///home/kaiser8449 has already been setup.
+2024-10-03 22:47:10.162 [info] Found GitHub remote for folder /home/kaiser8449
+2024-10-03 22:47:10.164 [info] Using in-memory cached assignable users.
+2024-10-03 22:47:10.441 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-10-03 22:47:10.441 [info] Review+0> No matching pull request metadata found on GitHub for current branch main

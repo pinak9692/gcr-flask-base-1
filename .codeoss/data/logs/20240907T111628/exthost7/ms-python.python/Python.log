@@ -1,9 +1,0 @@
-2024-09-07 11:55:51.919 [info] Default formatter is set to null for workspace /home/kaiser8449/hello-world-6
-2024-09-07 11:55:51.919 [info] Test server listening.
-2024-09-07 11:55:51.919 [info] > hatch env show --json
-2024-09-07 11:55:51.919 [info] cwd: .
-2024-09-07 11:55:51.919 [info] Python interpreter path: /bin/python
-2024-09-07 11:55:54.885 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
-2024-09-07 11:55:55.183 [info] > pyenv which python
-2024-09-07 11:55:55.183 [info] cwd: .
-2024-09-07 11:55:58.967 [info] Starting Jedi language server for hello-world-6.

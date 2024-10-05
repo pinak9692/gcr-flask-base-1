@@ -1,0 +1,72 @@
+Retrieving builders.
+Getting Gcloud Login State.
+Using current GCP Project "abbadon"
+Checking Cloud Run API status.
+Getting Cloud Run Services for project "abbadon".
+Executing Skaffold build.
+Running skaffold command: /usr/bin/skaffold init --artifact {"image":"gcr.io/abbadon/django-66","builder":"Docker","payload":{"path":"Dockerfile"}} --skip-deploy --filename /tmp/cloud-code-cloud-run-nR8cVE/skaffold.yaml --force
+Setting build tagPolicy to SHA256.
+Setting statusCheckDeadlineSeconds to 5 minutes
+Setting build environment to 'local'
+Created the file /tmp/cloud-code-cloud-run-nR8cVE/skaffold.yaml.
+Running skaffold command: build --filename /tmp/cloud-code-cloud-run-nR8cVE/skaffold.yaml --kube-context='' --platform=linux/amd64
+Generating tags...
+ - gcr.io/abbadon/django-66 ->
+gcr.io/abbadon/django-66:latest
+Checking cache...
+- gcr.io/abbadon/django-66: Not found. Building
+Starting build...
+Building [gcr.io/abbadon/django-66]...
+Target platforms: [linux/amd64]
+Sending build context to Docker daemon  413.2kB
+Step 1/6 : FROM python:3.12-alpine
+---> 90cba383afad
+Step 2/6 : WORKDIR /app
+---> Using cache
+ ---> 9e1c3f479f2c
+Step 3/6 : COPY requirements.txt .
+---> Using cache
+ ---> 41e6252ed37c
+Step 4/6 : RUN pip install --trusted-host pypi.python.org -r requirements.txt
+---> Using cache
+---> 02544fc7423e
+Step 5/6 : COPY . .
+---> 77befe6ff314
+Step 6/6 : ENTRYPOINT ["python", "manage.py", "runserver", "--noreload"]
+---> Running in a3809d9fe4d5
+---> 373e3ee19167
+Successfully built 373e3ee19167
+Successfully tagged gcr.io/abbadon/django-66:latest
+The push refers to repository [gcr.io/abbadon/django-66]
+3e616b87bcb1: Preparing
+c0d9b002869d: Preparing
+331aac6ac271: Preparing
+1716efc28edf: Preparing
+067ea9e8160a: Preparing
+ae31132e71b1: Preparing
+0263bd6854c0: Preparing
+63ca1fbb43ae: Preparing
+0263bd6854c0: Waiting
+63ca1fbb43ae: Waiting
+ae31132e71b1: Waiting
+331aac6ac271: Layer already exists
+1716efc28edf:
+Layer already exists
+067ea9e8160a: Layer already exists
+c0d9b002869d: Layer already exists
+63ca1fbb43ae: Layer already exists
+ae31132e71b1: Layer already exists
+0263bd6854c0: Layer already exists
+3e616b87bcb1: Pushed
+latest: digest: sha256:684e70619e3b39bb01416fd52a246b45ef068a3f23bb2d76451476a192e313b5 size: 1992
+Build [gcr.io/abbadon/django-66] succeeded
+Executing Gcloud Run Deploy
+Running gcloud command: run deploy django-66 --project abbadon --image gcr.io/abbadon/django-66 --client-name Cloud Code for VS Code --client-version 2.14.0 --platform managed --region us-central1 --allow-unauthenticated --port 8080 --cpu 1 --memory 256Mi --concurrency 80 --timeout 300 --clear-env-vars
+Deploying container to Cloud Run service [django-66] in project [abbadon] region [us-central1]
+Deploying...
+Setting IAM Policy..................................done
+Creating Revision............................................................................................................................................................................................................................................done
+Routing traffic.....done
+Done.
+Service [django-66] revision [django-66-00002-xqm] has been deployed and is serving 100 percent of traffic.
+Service URL: https://django-66-489842209166.us-central1.run.app

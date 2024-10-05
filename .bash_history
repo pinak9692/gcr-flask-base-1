@@ -28,3 +28,26 @@ git remote add origin https://github.com/pinak9692/hello1.git
 git push -u origin main
 git remote add origin git@github.com:pinak9692/hello1.git
 git push -u origin main
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:pinak9692/hello1.git
+git push -u origin main
+gcloud services enable     run.googleapis.com     --project=abbadon
+gcloud services enable     run.googleapis.com     --project=abbadon
+gcloud services enable     run.googleapis.com     --project=abbadon
+minikube start
+gcloud services enable     run.googleapis.com     --project=abbadon
+gcloud services enable     run.googleapis.com     --project=abbadon
+gcloud services enable     run.googleapis.com     --project=abbadon
+minikube start
+gcloud auth login
+gcloud services enable     run.googleapis.com     --project=abbadon
+kaiser8449@gmail.com
+1
+gcloud auth login
+gcloud services enable     run.googleapis.com     --project=abbadon
+gcloud services enable     run.googleapis.com     --project=abbadon
+gcloud services enable     run.googleapis.com     --project=abbadon
+gcloud services enable     run.googleapis.com     --project=abbadon
+git init

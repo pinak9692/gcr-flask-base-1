@@ -1,1 +1,0 @@
-Port forwarding service/go-hello-world-external in namespace default, remote port 80 -> http://127.0.0.1:4503
